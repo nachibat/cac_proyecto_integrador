@@ -93,3 +93,23 @@ main .banner .container {
 main .banner .container button {
     margin-left: 15px;
 }
+
+main .cards {
+    margin: 20px 0px;
+    width: 100%;
+}
+
+main .cards .cards-title {
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main .cards .cards-title h6 {
+    font-size: 12px;
+    color: #a19e94;
+}
+
+main .cards .cards-body {
+    padding: 0 10%;
+}
