@@ -113,3 +113,26 @@ main .cards .cards-title h6 {
 main .cards .cards-body {
     padding: 0 10%;
 }
+
+main .image {
+    width: 100%;
+    margin: 20px 0;
+    height: 400px;
+    display: flex;
+}
+
+main .image .photo {
+    width: 50%;
+    background-image: url(../img/honolulu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image .description {
+    padding: 20px;
+    width: 50%;
+    background: #343a40;
+    color: #ffffff;
+    font-size: 14px;
+}
