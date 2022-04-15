@@ -2,4 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #353a40;
+    color: #ffffff;
+    padding: 0 80px;
+}
+
+header nav .title {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+header nav .title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+header nav .title img {
+    width: 90px;
+}
+
+header nav .menu {
+    width: 70%;
+    height: 100%;
+}
+
+header nav .menu ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: end;
+}
+
+header nav .menu ul li {
+    margin: 10px;
+}
+
+header nav .menu ul li a {
+    color: #a19e94;
+    font-weight: 500;
 }
