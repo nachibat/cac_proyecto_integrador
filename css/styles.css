@@ -136,3 +136,30 @@ main .image .description {
     color: #ffffff;
     font-size: 14px;
 }
+
+main .form {
+   width: 100%;
+}
+
+main .form .form-title {
+    text-transform: uppercase;
+}
+
+main .form .form-title h6,
+main .form .paragraph {
+    font-size: 14px;
+    color: #a19e94;
+}
+
+main .form .paragraph span {
+    border-bottom: 1px dotted #a19e94;
+}
+
+main .form form {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+main .form form .row:nth-child(3) p {
+    color: #a19e94;
+}
